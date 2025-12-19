@@ -372,7 +372,7 @@
 }
 
 .footer-container {
-  height: 90vh;
+  
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -405,7 +405,7 @@
 }
 
 .footer-text p {
-  color: white;
+  color: rgb(255, 242, 221);
   font-size: 18px;
 }
 
@@ -426,9 +426,7 @@
 
 .instagram-logo {
   width: 30px;
-  height: 30px;
-  margin-top: auto;
-  margin-bottom: 120px;
+  margin-top: 300px;
   margin-left: 120px;
 }
 
@@ -501,6 +499,68 @@
     margin: 0 auto;
     display: block;
   }
+
+
+  .order-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .order-btn,
+  .faqs-btn {
+    width: 80%;
+  }
+
+  .findus-container {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info {
+    text-align: center;
+  }
+
+  .maps {
+    width: 100%;
+  }
+
+.footer-info {
+  display: none;
+}
+
+ .footer-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  
+}
+
+.instagram-logo {
+
+  justify-content: center;
+  align-items: center;
+  margin-right: 120px;
+  margin-top: 50px;
+  size: 150px;
+
+} 
+
+.footer-span {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  text-align: center;
+}
+
+.footer-logo {
+  margin-left: 50px;
+}
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -568,4 +628,65 @@
     margin: 0 auto;
     display: block;
   }
+
+  .order-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .order-btn,
+  .faqs-btn {
+    width: 80%;
+  }
+
+  .findus-container {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info {
+    text-align: center;
+  }
+
+  .maps {
+    width: 100%;
+  }
+
+.footer-info {
+  display: none;
+}
+
+ .footer-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  
+}
+
+.instagram-logo {
+
+  justify-content: center;
+  align-items: center;
+  margin-right: 120px;
+  margin-top: 50px;
+  size: 150px;
+
+} 
+
+.footer-span {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  text-align: center;
+}
+
+.footer-logo {
+  margin-left: 50px;
+}
+
 }
